@@ -7,7 +7,7 @@ function LeaderBoard() {
     const [users, setUsers] = useState([]);
 
     useEffect(() => {
-       axios.get('http://localhost:5000/user/getuserdata')
+       axios.get('http://localhost:3000/user/getuserdata')
             
           .then((res) => {
              

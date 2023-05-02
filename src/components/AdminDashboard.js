@@ -4,7 +4,7 @@ import axios from "axios";
 function AdminDashboard() {
     const [users, setUsers] = useState([]);
     useEffect(() => {
-       axios.get('http://localhost:5000/user/getuserdata') 
+       axios.get('http://localhost:3000/user/getuserdata') 
           .then((res) => {    
              let arr = res.data.payload;
              console.log("data : ",arr);

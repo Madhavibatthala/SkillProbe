@@ -12,7 +12,7 @@ function Result({user,score,timeArr}){
     userObj.score = score;
     userObj.timeArr = timeArr;
     const myFunction = () =>{
-        axios.post('http://localhost:5000/user/postuser',userObj)
+        axios.post('http://localhost:3000/user/postuser',userObj)
         .then(response=>{})
         .catch(error=>{alert("something went wrong")})
         navigate("/home");
