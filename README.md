@@ -22,9 +22,13 @@ Run
 Features Implemented :
 
 #create ID nad password to participate
+
 #The puzzle has 5 clues and 5 dead ends
+
 #User data, score, time taken are stored in MongoDb
+
 #LeaderBoard
+
 #Admin Dashboard
 
 
