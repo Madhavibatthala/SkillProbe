@@ -9,6 +9,7 @@ app.use(exp.static(path.join(__dirname,'./build')));
 require("dotenv").config();
 //db connection url
 const DBurl = process.env.DATABASE_CONNECTION_URL;
+const baseUrl = process.env.BASE_URL
 mclient.connect(DBurl) //returns client object(promise) when connection is successful
 .then((client)=>{ //consumes promise
     //get DB object
