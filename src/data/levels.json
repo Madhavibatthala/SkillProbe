@@ -1,0 +1,38 @@
+[
+    {
+        "title" : "Collaborative teamwork is essential for",
+        "image" : "/",
+        "options" : ["Equal Importance to all members","Solving multifaceted problems","Unbiased Selection of ideas","Better failure management"],
+        "description" : "Here.. The clue is the number of occurances of letter 's' (ignore case) in the correct option",
+        "clue" : "0"
+    },
+    {
+        "title" : "How many faces do you see in this picture?",
+        "image" : "images/image2.jpg",
+        "options" : ["12","13","14","15"],
+        "description" : "Here.. The clue is the product of digits in answer.",
+        "clue" : "3"
+    },
+    {
+        "title" : "There is a room with a door (closed) and three light bulbs inside the room. Outside the room, there are three switches, connected to the bulbs. Find the minimum number of times that you open the door to identify each switch with respect to its bulb.",
+        "image" : "/",
+        "options" : ["1","2","3","4"],
+        "description" : "Here.. The clue is the minimum number of times you enter the room.",
+        "clue" : "1"
+    },
+    {
+        "title" : "How many zeroes are required to make the number 120 where you should make use of only the digit '0' any number of times followed by any mathematical operation excluding all real numbers?",
+        "image" : "/",
+        "options" : ["12","5","10","6"],
+        "description" : "Here.. The clue is the sum of digits of number of zeroes required.",
+        "clue" : "5"
+    },
+    {
+        "title" : "one step away..",
+        "image" : "/",
+        "options" : [],
+        "description" : "Here.. The Final clue to acheive the task is the maximum number lesser or equal to the number you can make out of all digits that you have gotten from clues of before levels and it should be divisble by 8",
+        "clue" : "5304"
+    }
+    
+]

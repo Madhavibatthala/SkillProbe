@@ -1,0 +1,76 @@
+  .test-screen {
+    width: 0%;
+    height: 5px;
+  }
+
+  
+  .test-screen {
+    margin : 20px 0px;
+    text-align : center;
+    font-size: 15px;
+    
+  }
+  .test-screen{
+    padding : 20px 40px;
+  }
+  .test-screen .title span{
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .test-screen .title p{
+    margin-top: 5px;
+  }
+  .test-screen .options { 
+  
+  margin: 40px 0px 20px;
+  
+  display: flex;
+  
+  justify-content: space-between; flex-wrap: wrap;
+  
+  gap: 20px;
+  }
+  
+  .test-screen .options .option 
+  { 
+    width: calc(50% - J0px); 
+    border: 1px solid ; 
+    padding: 10px; 
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  
+  .test-screen  .control 
+  { display: flex;
+  
+    padding: 10px 20px;
+    
+    justify-content: flex-end; 
+    align-items: center;
+    
+    border-top: 1px solid ;
+    
+    }
+    
+      button{
+        padding: 10px 20px;
+        background: #000000;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        border-radius: 50px;
+        font-size: 15px;
+      }
+      
+      /* *{
+        margin : 0;
+        padding: 0;
+        box-sizing: border-box;
+    } */
+    .content{
+      /* margin : 50px; */
+      margin: 150px;
+      padding: 100px;
+      justify-content: center;
+    }
