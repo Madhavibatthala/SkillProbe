@@ -2,7 +2,7 @@ import React from "react";
 import './Result.css'
 // import { Button } from "bootstrap";
 import axios from "axios";
-
+import { BASE_URL } from "../config";
 import { useNavigate } from "react-router-dom";
 
 function Result({user,score,timeArr}){
@@ -12,7 +12,7 @@ function Result({user,score,timeArr}){
     userObj.score = score;
     userObj.timeArr = timeArr;
     const myFunction = () =>{
-        axios.post('http://localhost:3000/user/postuser',userObj)
+        axios.post(`${BASE_URL}/user/postuser`,userObj)
         .then(response=>{})
         .catch(error=>{alert("something went wrong")})
         navigate("/home");

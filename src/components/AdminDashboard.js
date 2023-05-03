@@ -1,10 +1,12 @@
 import React from "react";
 import { useState, useEffect } from 'react';
 import axios from "axios";
+import { BASE_URL} from '../config';
+
 function AdminDashboard() {
     const [users, setUsers] = useState([]);
     useEffect(() => {
-       axios.get('http://localhost:3000/user/getuserdata') 
+       axios.get(`${BASE_URL}/user/getuserdata`) 
           .then((res) => {    
              let arr = res.data.payload;
              console.log("data : ",arr);
