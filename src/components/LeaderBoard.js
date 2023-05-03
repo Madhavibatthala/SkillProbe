@@ -2,12 +2,13 @@ import React from "react";
 import { useState, useEffect } from 'react';
 import axios from "axios";
 import { Link } from "react-router-dom";
+import { BASE_URL } from "../config";
 import './LeaderBoard.css';
 function LeaderBoard() {
     const [users, setUsers] = useState([]);
 
     useEffect(() => {
-       axios.get('http://localhost:3000/user/getuserdata')
+       axios.get(`${BASE_URL}/user/getuserdata`)
             
           .then((res) => {
              
