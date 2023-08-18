@@ -2,7 +2,8 @@ import React from "react";
 import { useState, useEffect } from 'react';
 import axios from "axios";
 import { Link } from "react-router-dom";
-import './LeaderBoard.css';
+// import './LeaderBoard.css';
+import "bootstrap/dist/css/bootstrap.min.css"
 function LeaderBoard() {
     const [users, setUsers] = useState([]);
 
@@ -26,26 +27,30 @@ function LeaderBoard() {
           .catch((err) => console.log(err));
     },[] );
     return (
-        <div className="container ">
-            <table style={{width : "100%"}} >
-            <tr style={{width : "100%"}} className="row">
-                <th className="col-4">S No.</th>
-                <th className="col-4">ID</th>
-                <th className="col-4">Score</th>
+        <div className="container table-responsive  ">
+            <table   className="table text-center bg-light table-striped  table-bordered table-hover">
+                <thead className="thead-dark">
+            <tr  className="row">
+                <th className=" col-4 p-3  ">S No.</th>
+                <th className=" col-4 p-3 ">ID</th>
+                <th className=" col-4 p-3 ">Score</th>
             </tr>
-
+            </thead> 
+             <tbody>
             {users.map((b,index) => (
-            <div key={b._id}>
+            // <div key={b._id}>
                 
-               <tr style={{width : "100%"}} className=" row text-dark bg-transparent bg-opacity-50 mx-auto my-3">
-                    <td className="col-4">{index+1}</td>
-                    <td className="col-4">{b.name}</td>
-                    <td className="col-4">{b.score}</td>
+               <tr  key ={b._id} className=" row">
+                    <td className=" col-4 p-3  ">{index+1}</td>
+                    <td className=" col-4 p-3 ">{b.name}</td>
+                    <td className=" col-4 p-3 ">{b.score}</td>
                 </tr>
-                
-            </div>
+               
+            // </div>
+           
             
          ))}
+           </tbody> 
          </table>
         </div>
     );

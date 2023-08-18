@@ -1,0 +1,23 @@
+table {
+    border: 2px solid black;
+    /* border-bottom: 1px solid black; */
+    border-collapse: collapse;
+  }
+th {
+    border-bottom: 2px solid black;
+    text-align: center;
+
+}
+td {
+  border-bottom: 2px solid black;
+  text-align: center;
+
+}
+/* .row {
+  border-bottom: 1px solid black;
+  /* text-align: center; */
+/* 
+} */ 
+ 
+
+  
