@@ -1,38 +1,36 @@
 [
     {
-        "title" : "Collaborative teamwork is essential for",
-        "image" : "/",
-        "options" : ["Equal Importance to all members","Solving multifaceted problems","Unbiased Selection of ideas","Better failure management"],
-        "description" : "Here.. The clue is the number of occurances of letter 's' (ignore case) in the correct option",
-        "clue" : "0"
+        "title" : "What's an essential step in effective problem-solving?",
+        "options" : ["Jumping to conclusions quickly to save time",
+        "Ignoring alternative perspectives and solutions",
+        "Gathering relevant information and analyzing the situation",
+        "Relying solely on intuition without considering facts"],
+        "answer" : "Gathering relevant information and analyzing the situation"
     },
     {
-        "title" : "How many faces do you see in this picture?",
-        "image" : "images/image2.jpg",
-        "options" : ["12","13","14","15"],
-        "description" : "Here.. The clue is the product of digits in answer.",
-        "clue" : "3"
+        "title" : "How should you approach a disagreement with a coworker?",
+        "options" : ["Avoid them and refuse to engage in any discussions",
+        "Confront them aggressively and demand they accept your viewpoint",
+        "Seek to understand their perspective, communicate calmly, and find a compromise",
+        "Complain to your supervisor without discussing the issue with your coworker"],
+        "answer" : "Seek to understand their perspective, communicate calmly, and find a compromise"
     },
     {
         "title" : "There is a room with a door (closed) and three light bulbs inside the room. Outside the room, there are three switches, connected to the bulbs. Find the minimum number of times that you open the door to identify each switch with respect to its bulb.",
-        "image" : "/",
         "options" : ["1","2","3","4"],
-        "description" : "Here.. The clue is the minimum number of times you enter the room.",
-        "clue" : "1"
+        "answer" : "1"
     },
     {
         "title" : "How many zeroes are required to make the number 120 where you should make use of only the digit '0' any number of times followed by any mathematical operation excluding all real numbers?",
-        "image" : "/",
         "options" : ["12","5","10","6"],
-        "description" : "Here.. The clue is the sum of digits of number of zeroes required.",
-        "clue" : "5"
+        "answer" : "5"
     },
     {
-        "title" : "one step away..",
-        "image" : "/",
-        "options" : [],
-        "description" : "Here.. The Final clue to acheive the task is the maximum number lesser or equal to the number you can make out of all digits that you have gotten from clues of before levels and it should be divisble by 8",
-        "clue" : "5304"
+        "title" : "What's a characteristic of an effective leader?",
+        "options" : ["Micromanaging every task and decision" , "Taking credit for team successes and blaming them for failures",
+        "Providing guidance, empowering team members, and leading by example",
+        "Maintaining a distant and unapproachable demeanor"],
+        "answer" : "Providing guidance, empowering team members, and leading by example"
     }
     
 ]

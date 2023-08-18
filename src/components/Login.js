@@ -22,20 +22,20 @@ function Login(){
             <div className='Login m-3'>
               <div className='container'>
                 <div className='row'>
-                  <div className="col-4 m-auto" >
+                  <div className="col-sm-10 col-md-4 m-auto" >
                     <form className=' bg-transparent bg-opacity-50 shadow rounded-3' onSubmit={handleSubmit(onFormSubmit)}>
                       <div>
                        <div className='m-3'>
                         <h3 className='text-center m-3 p-2'>Login</h3>
                         <hr  />
                         </div>
-                        <p className="m-3">(<b>Note :</b> abc will be your unique id for the email abc@gmail.com)</p>
+                        {/* <p className="m-3">(<b>Note :</b> abc will be your unique id for the email abc@gmail.com)</p>
                         {/* Unique Id */}
                         <div className="m-3">
-                        <label htmlFor="name" >Unique Id</label>
+                        <label htmlFor="name" >User Name</label>
                         <input type="text" style={{ borderRadius: '15px' }} id="name" className="form-control" {...register("name", { required: true })}/>
-                        {errors.name?.type === 'required' && <p className='text-danger'>*Id is required</p>}
-                        </div>
+                        {errors.name?.type === 'required' && <p className='text-danger'>*UserName is required</p>}
+                        </div> 
                         {/* email */}
                         <div className="m-3">
                         <label htmlFor="email" >Email Id</label>

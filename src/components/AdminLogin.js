@@ -38,9 +38,10 @@ console.log(ADMIN_PASSWORD);
             <div className='Login m-5'>
               <div className='container'>
                 <div className='row'>
-                  <div className="col-4 m-auto" >
-                  <h1>Admin Login</h1>
+                  <div className="col-sm-10 col-md-4  m-auto" >
+                  
                     <form className=' bg-transparent bg-opacity-50 shadow rounded-3' onSubmit={handleSubmit(onFormSubmit)}>
+                    <h3 className="text-center p-2">Admin Login</h3>
                       <div>
                         {/* email */}
                         <div className="m-3">

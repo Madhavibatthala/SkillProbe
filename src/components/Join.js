@@ -5,25 +5,16 @@ function Join({start}){
         <div className="Join-Screen">
             <h2>Note</h2>
             <p>
-                1. The assessment consists of <b>5 Levels. </b>Each Level has a single question.
+                1. The assessment consists of <b>5 Questions </b>
             </p>
             <p>
-                2. Each question is associated with options and clue description.
+                2. Each question is associated with 4 options out of which one is the correct answer.
             </p>
             <p>
-                3. Each clue is important to proceed to further levels and it is advised to be noted.
+                3. +1 score is awarded for each correct answer.
             </p>
             <p>
-                4. For each question, the clue must be generated from the given descriptions and submitted.
-            </p>
-            <p>
-                5. Successful Submission of clue at each round advances to next level.
-            </p>
-            <p>
-                6. unsuccessful Submission of clue at any level leads to dead end.
-            </p>
-            <p>
-                7. The assessment is completed when the user has completed all the questions thus reaches to end point.
+                4. No negative score for the questions wrongly answered. 
             </p>
             <p>Clik here to start the test</p>
         <button onClick={start}>Start Test</button>

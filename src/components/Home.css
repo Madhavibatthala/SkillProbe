@@ -1,21 +1,20 @@
 .home-container{
-    height : 600px;
     background-color: bisque;
-    padding-top : 100px;
-    padding-left : 100px;
+    padding : 10% 10% 10% 10%;
     /* padding-right : 100px; */
+    height: 100%;
     
 }
 .icon{
-    height: 400px;
-    width : 400px;
+    height: 70%;
+    width : 70%;
     border-radius: 20%;
     align-items: flex-end;
     justify-content: flex-end;
-    margin-left: 200px;
+    margin-left: 60%;
 }
 .head{
     align-items: flex-start;
-    padding-top: 100px;
+    padding-top: 10%;
     
 }
